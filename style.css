@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #444;
+}
+
+#hint {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+#word-display {
+    font-size: 1.5em;
+    margin: 20px 0;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+#input-area {
+    margin: 20px 0;
+}
+
+#guess-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#guess-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#guess-btn:hover {
+    background: #45a049;
+}
+
+#game-info {
+    margin-top: 20px;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#restart-btn:hover {
+    background: #e53935;
+}
+
+canvas {
+    margin: 20px auto;
+    display: block;
+    background: #eee;
+    border: 1px solid #ccc;
+}
